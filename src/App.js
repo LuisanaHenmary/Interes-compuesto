@@ -7,10 +7,22 @@ const Contenedor = styled.div`
   align-items: center;
 `
 
-const App = () =>{
-  return(
+const Seccion = styled.section`
+  background-color: #eee;
+  border-top: solid 2px palevioletred;
+  padding: 20px 25px;
+  width: 500px;
+  box-shadow: 0px 2px 3px rgba(0,0,0,0.3);
+`
 
-    <Contenedor>HOLA MUNDO</Contenedor>
+const App = () => {
+  return (
+
+    <Contenedor>
+      <Seccion>
+        HOLA MUNDO
+      </Seccion>
+    </Contenedor>
   )
 }
 
