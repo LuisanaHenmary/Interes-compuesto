@@ -1,22 +1,8 @@
-import styled from 'styled-components'
 import { Formik, Form } from 'formik'
 import Input from './componentes/Input'
 import Boton from './componentes/Boton'
-
-const Contenedor = styled.div`
-  display: flex;
-  justify-content: center;
-  height: 100%;
-  align-items: center;
-`
-
-const Seccion = styled.section`
-  background-color: #eee;
-  border-top: solid 2px palevioletred;
-  padding: 20px 25px;
-  width: 500px;
-  box-shadow: 0px 2px 3px rgba(0,0,0,0.3);
-`
+import Contenedor from './componentes/Contenedor'
+import Seccion from './componentes/Seccion'
 
 const App = () => {
   const handleSumit = () => {
